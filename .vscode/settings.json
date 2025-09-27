@@ -1,0 +1,27 @@
+{
+  // Define a new terminal profile for MSYS2 Bash
+  "terminal.integrated.profiles.windows": {
+    "MSYS2 Bash": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["--login", "-i"],
+      "icon": "terminal-bash"
+    }
+  },
+
+  // Set MSYS2 Bash as the default integrated terminal
+  "terminal.integrated.defaultProfile.windows": "MSYS2 Bash",
+  "VsCodeTaskButtons.tasks": [
+    {
+      "label": "CMake",
+      "task": "Configure CMake"
+    },
+    {
+      "label": "Build",
+      "task": "Build STM32 Project"
+    },
+    {
+      "label": "Clean",
+      "task": "Clean Build Directory"
+    }
+  ]
+}

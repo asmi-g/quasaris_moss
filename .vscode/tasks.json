@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Configure Cmake",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S", "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1",
+        "-B", "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build",
+        "-G", "Unix Makefiles",
+        "-DCMAKE_TOOLCHAIN_FILE=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/gcc-arm-none-eabi.cmake",
+        "-DCMAKE_C_COMPILER=\"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe\"",
+        "-DCMAKE_CXX_COMPILER=\"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe\""
+      ],
+      "options": {
+        "env": {
+          "PATH": "${env:PATH};C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
+        },
+        "shell": {
+          "executable": "C:/msys64/usr/bin/bash.exe",
+          "args": ["--login", "-i", "-c"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build STM32 Project",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build"
+      ],
+      "dependsOn": ["Configure Cmake"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "C:/msys64/usr/bin/bash.exe",
+          "args": ["--login", "-i", "-c"]
+        }
+      }
+    },
+    {
+      "label": "Clean Build Directory",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "if (Test-Path 'moss_v1/build') { Remove-Item -Recurse -Force 'moss_v1/build' }"
+      ],
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
