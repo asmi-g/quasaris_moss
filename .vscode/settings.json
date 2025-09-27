@@ -13,15 +13,16 @@
   "VsCodeTaskButtons.tasks": [
     {
       "label": "CMake",
-      "task": "Configure CMake"
+      "task": "CMake Configure"
     },
     {
       "label": "Build",
-      "task": "Build STM32 Project"
+      "task": "CMake Build"
     },
     {
       "label": "Clean",
       "task": "Clean Build Directory"
     }
-  ]
+  ],
+  "cmake.sourceDirectory": "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1"
 }

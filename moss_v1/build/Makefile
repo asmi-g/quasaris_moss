@@ -142,13 +142,13 @@ STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
-Core/Src/main.o: Core/Src/main.c.o
-.PHONY : Core/Src/main.o
+Core/Src/main.obj: Core/Src/main.c.obj
+.PHONY : Core/Src/main.obj
 
 # target to build an object file
-Core/Src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/main.c.o
-.PHONY : Core/Src/main.c.o
+Core/Src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/main.c.obj
+.PHONY : Core/Src/main.c.obj
 
 Core/Src/main.i: Core/Src/main.c.i
 .PHONY : Core/Src/main.i
@@ -166,13 +166,13 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
-Core/Src/stm32g4xx_hal_msp.o: Core/Src/stm32g4xx_hal_msp.c.o
-.PHONY : Core/Src/stm32g4xx_hal_msp.o
+Core/Src/stm32g4xx_hal_msp.obj: Core/Src/stm32g4xx_hal_msp.c.obj
+.PHONY : Core/Src/stm32g4xx_hal_msp.obj
 
 # target to build an object file
-Core/Src/stm32g4xx_hal_msp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o
-.PHONY : Core/Src/stm32g4xx_hal_msp.c.o
+Core/Src/stm32g4xx_hal_msp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+.PHONY : Core/Src/stm32g4xx_hal_msp.c.obj
 
 Core/Src/stm32g4xx_hal_msp.i: Core/Src/stm32g4xx_hal_msp.c.i
 .PHONY : Core/Src/stm32g4xx_hal_msp.i
@@ -190,13 +190,13 @@ Core/Src/stm32g4xx_hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.s
 .PHONY : Core/Src/stm32g4xx_hal_msp.c.s
 
-Core/Src/stm32g4xx_it.o: Core/Src/stm32g4xx_it.c.o
-.PHONY : Core/Src/stm32g4xx_it.o
+Core/Src/stm32g4xx_it.obj: Core/Src/stm32g4xx_it.c.obj
+.PHONY : Core/Src/stm32g4xx_it.obj
 
 # target to build an object file
-Core/Src/stm32g4xx_it.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o
-.PHONY : Core/Src/stm32g4xx_it.c.o
+Core/Src/stm32g4xx_it.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj
+.PHONY : Core/Src/stm32g4xx_it.c.obj
 
 Core/Src/stm32g4xx_it.i: Core/Src/stm32g4xx_it.c.i
 .PHONY : Core/Src/stm32g4xx_it.i
@@ -214,13 +214,13 @@ Core/Src/stm32g4xx_it.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.s
 .PHONY : Core/Src/stm32g4xx_it.c.s
 
-Core/Src/syscalls.o: Core/Src/syscalls.c.o
-.PHONY : Core/Src/syscalls.o
+Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
+.PHONY : Core/Src/syscalls.obj
 
 # target to build an object file
-Core/Src/syscalls.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o
-.PHONY : Core/Src/syscalls.c.o
+Core/Src/syscalls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj
+.PHONY : Core/Src/syscalls.c.obj
 
 Core/Src/syscalls.i: Core/Src/syscalls.c.i
 .PHONY : Core/Src/syscalls.i
@@ -238,13 +238,13 @@ Core/Src/syscalls.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.s
 .PHONY : Core/Src/syscalls.c.s
 
-Core/Src/sysmem.o: Core/Src/sysmem.c.o
-.PHONY : Core/Src/sysmem.o
+Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
+.PHONY : Core/Src/sysmem.obj
 
 # target to build an object file
-Core/Src/sysmem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o
-.PHONY : Core/Src/sysmem.c.o
+Core/Src/sysmem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj
+.PHONY : Core/Src/sysmem.c.obj
 
 Core/Src/sysmem.i: Core/Src/sysmem.c.i
 .PHONY : Core/Src/sysmem.i
@@ -262,13 +262,13 @@ Core/Src/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
 
-startup_stm32g474xx.o: startup_stm32g474xx.s.o
-.PHONY : startup_stm32g474xx.o
+startup_stm32g474xx.obj: startup_stm32g474xx.s.obj
+.PHONY : startup_stm32g474xx.obj
 
 # target to build an object file
-startup_stm32g474xx.s.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o
-.PHONY : startup_stm32g474xx.s.o
+startup_stm32g474xx.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj
+.PHONY : startup_stm32g474xx.s.obj
 
 # Help Target
 help:
@@ -280,22 +280,22 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... STM32_Drivers"
 	@echo "... moss_v1"
-	@echo "... Core/Src/main.o"
+	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
-	@echo "... Core/Src/stm32g4xx_hal_msp.o"
+	@echo "... Core/Src/stm32g4xx_hal_msp.obj"
 	@echo "... Core/Src/stm32g4xx_hal_msp.i"
 	@echo "... Core/Src/stm32g4xx_hal_msp.s"
-	@echo "... Core/Src/stm32g4xx_it.o"
+	@echo "... Core/Src/stm32g4xx_it.obj"
 	@echo "... Core/Src/stm32g4xx_it.i"
 	@echo "... Core/Src/stm32g4xx_it.s"
-	@echo "... Core/Src/syscalls.o"
+	@echo "... Core/Src/syscalls.obj"
 	@echo "... Core/Src/syscalls.i"
 	@echo "... Core/Src/syscalls.s"
-	@echo "... Core/Src/sysmem.o"
+	@echo "... Core/Src/sysmem.obj"
 	@echo "... Core/Src/sysmem.i"
 	@echo "... Core/Src/sysmem.s"
-	@echo "... startup_stm32g474xx.o"
+	@echo "... startup_stm32g474xx.obj"
 .PHONY : help
 
 

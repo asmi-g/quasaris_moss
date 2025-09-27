@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s" "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s" "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -30,11 +30,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c" "CMakeFiles/moss_v1.dir/Core/Src/main.c.o" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/main.c.o.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o.d"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj.d"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj.d"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj.d"
+  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

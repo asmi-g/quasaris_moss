@@ -19,15 +19,15 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_C_SIMULATE_VERSION "")
-set(CMAKE_C_COMPILER_ARCHITECTURE_ID "")
+set(CMAKE_C_COMPILER_ARCHITECTURE_ID "armv7")
 
 
 
-set(CMAKE_AR "/usr/bin/ar.exe")
+set(CMAKE_AR "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe")
 set(CMAKE_C_COMPILER_AR "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "/usr/bin/ranlib.exe")
+set(CMAKE_RANLIB "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "/usr/bin/ld.exe")
+set(CMAKE_LINKER "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -48,7 +48,7 @@ set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)
 set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
 set(CMAKE_C_LINKER_DEPFILE_SUPPORTED )
-set(CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED TRUE)
+set(CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED )
 set(CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED )
 
 # Save compiler ABI information.

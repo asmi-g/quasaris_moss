@@ -72,11 +72,11 @@ include CMakeFiles/moss_v1.dir/flags.make
 CMakeFiles/moss_v1.dir/codegen:
 .PHONY : CMakeFiles/moss_v1.dir/codegen
 
-CMakeFiles/moss_v1.dir/Core/Src/main.c.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/Core/Src/main.c.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c
-CMakeFiles/moss_v1.dir/Core/Src/main.c.o: CMakeFiles/moss_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/moss_v1.dir/Core/Src/main.c.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/main.c.o -MF CMakeFiles/moss_v1.dir/Core/Src/main.c.o.d -o CMakeFiles/moss_v1.dir/Core/Src/main.c.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c
+CMakeFiles/moss_v1.dir/Core/Src/main.c.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/Core/Src/main.c.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c
+CMakeFiles/moss_v1.dir/Core/Src/main.c.obj: CMakeFiles/moss_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/moss_v1.dir/Core/Src/main.c.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/main.c.obj -MF CMakeFiles/moss_v1.dir/Core/Src/main.c.obj.d -o CMakeFiles/moss_v1.dir/Core/Src/main.c.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c
 
 CMakeFiles/moss_v1.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/moss_v1.dir/Core/Src/main.c.i"
@@ -86,11 +86,11 @@ CMakeFiles/moss_v1.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/moss_v1.dir/Core/Src/main.c.s"
 	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c -o CMakeFiles/moss_v1.dir/Core/Src/main.c.s
 
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o: CMakeFiles/moss_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o -MF CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o.d -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/moss_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj -MF CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj.d -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c
 
 CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.i"
@@ -100,11 +100,11 @@ CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.s"
 	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.s
 
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c
-CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o: CMakeFiles/moss_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o -MF CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o.d -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c
+CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/moss_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj -MF CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c
 
 CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.i"
@@ -114,11 +114,11 @@ CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.s"
 	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c -o CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.s
 
-CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c
-CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o: CMakeFiles/moss_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o -MF CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o.d -o CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c
+CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c
+CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj: CMakeFiles/moss_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c
 
 CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.i"
@@ -128,11 +128,11 @@ CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.s"
 	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c -o CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.s
 
-CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c
-CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o: CMakeFiles/moss_v1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o -MF CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o.d -o CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c
+CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c
+CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj: CMakeFiles/moss_v1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c
 
 CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.i"
@@ -142,10 +142,10 @@ CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.s"
 	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c -o CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.s
 
-CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o: CMakeFiles/moss_v1.dir/flags.make
-CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o"
-	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s
+CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj: CMakeFiles/moss_v1.dir/flags.make
+CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj: /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
+	"/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj -c /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s
 
 CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.i"
@@ -157,57 +157,57 @@ CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.s: cmake_force
 
 # Object files for target moss_v1
 moss_v1_OBJECTS = \
-"CMakeFiles/moss_v1.dir/Core/Src/main.c.o" \
-"CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o" \
-"CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o" \
-"CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o" \
-"CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o" \
-"CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o"
+"CMakeFiles/moss_v1.dir/Core/Src/main.c.obj" \
+"CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj" \
+"CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj" \
+"CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj" \
+"CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj" \
+"CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
 
 # External object files for target moss_v1
 moss_v1_EXTERNAL_OBJECTS = \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.o" \
-"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.o"
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj" \
+"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 
-moss_v1.exe: CMakeFiles/moss_v1.dir/Core/Src/main.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.o
-moss_v1.exe: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.o
-moss_v1.exe: CMakeFiles/moss_v1.dir/build.make
-moss_v1.exe: CMakeFiles/moss_v1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable moss_v1.exe"
+moss_v1.elf: CMakeFiles/moss_v1.dir/Core/Src/main.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
+moss_v1.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+moss_v1.elf: CMakeFiles/moss_v1.dir/build.make
+moss_v1.elf: CMakeFiles/moss_v1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable moss_v1.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moss_v1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/moss_v1.dir/build: moss_v1.exe
+CMakeFiles/moss_v1.dir/build: moss_v1.elf
 .PHONY : CMakeFiles/moss_v1.dir/build
 
 CMakeFiles/moss_v1.dir/clean:
