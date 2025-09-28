@@ -1,6 +1,8 @@
 # Modular Operations Software Stack (MOSS)
 
-<img src="docs/assets/MOSS_QuasarisSpace_Logo.png" alt="MOSS Logo" width="600"/>
+<div align="center">
+    <img src="docs/assets/MOSS_QuasarisSpace_Logo.png" alt="MOSS Logo" width="600"/>
+</div>
 
 Status: MVP In Progress
 
