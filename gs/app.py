@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import scrolledtext
+import numpy as np
 import threading
 from socket import socket, AF_INET, SOCK_DGRAM
+
 
 class GroundStationGUI:
     def __init__(self, root, udp_ip='127.0.0.1', udp_port=5005):
@@ -60,12 +62,17 @@ class GroundStationGUI:
                 self.display_output(f"UDP server listening on {self.udp_ip}:{self.udp_port}")
                 while True:
                     try:
-                        data, addr = server_socket.recvfrom(1024)
-                        message = data.decode('utf-8')
-                        display_msg = f"< Received from {addr[0]}:{addr[1]}: {message}"
+                        data, addr = server_socket.recvfrom(8192)  # Optional: increase size
+                        try:
+                            samples = np.frombuffer(data, dtype=np.complex64)
+                            display_msg = f"< Received {len(samples)} IQ samples from {addr[0]}:{addr[1]}"
+                        except Exception as e:
+                            display_msg = f"[ERROR] Failed to parse IQ samples: {e}"
+
                         self.root.after(0, self.display_output, display_msg)
-                        # Echo back to client
+                        # Optional echo
                         server_socket.sendto("Message received".encode(), addr)
+
                     except Exception as e:
                         self.root.after(0, self.display_output, f"[ERROR] UDP server error: {e}")
                         break
@@ -73,6 +80,7 @@ class GroundStationGUI:
         # Start thread
         udp_thread = threading.Thread(target=udp_listener, daemon=True)
         udp_thread.start()
+
 
 # --- MAIN ---
 if __name__ == "__main__":
