@@ -1,7 +1,9 @@
-# Modular Operations Software Stack (MOSS) by Quasaris Space
-![alt text](docs/assets/MOSS_QuasarisSpace_Logo.png)
+# Modular Operations Software Stack (MOSS)
+
+<img src="docs/assets/MOSS_QuasarisSpace_Logo.png" alt="MOSS Logo" width="300"/>
 
 Status: MVP In Progress
+
 
 Plans:
 - Ground Station: Display OBC data in a GUI, displays radio Transmissions from ground station RX SDR
