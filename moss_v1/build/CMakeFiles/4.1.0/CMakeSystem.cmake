@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "MSYS-3.6.4-23a25d49.x86_64")
+set(CMAKE_HOST_SYSTEM "MSYS-3.6.4-dea57136.x86_64")
 set(CMAKE_HOST_SYSTEM_NAME "MSYS")
-set(CMAKE_HOST_SYSTEM_VERSION "3.6.4-23a25d49.x86_64")
+set(CMAKE_HOST_SYSTEM_VERSION "3.6.4-dea57136.x86_64")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/gcc-arm-none-eabi.cmake")

@@ -7,7 +7,7 @@
       "icon": "terminal-bash"
     }
   },
-
+  "python.pythonPath": ".venv\\Scripts\\python.exe",
   // Set MSYS2 Bash as the default integrated terminal
   "terminal.integrated.defaultProfile.windows": "MSYS2 Bash",
   "VsCodeTaskButtons.tasks": [
