@@ -2,9 +2,3 @@
 	path = basilisk
 	url = https://github.com/AVSLab/basilisk.git
 
-[submodule "cesium-app"]
-	path = cesium-app
-	url = https://github.com/poliastro/cesium-app
-[submodule "poliastro_simulations/cesium-app"]
-	path = poliastro_simulations/cesium-app
-	url = https://github.com/poliastro/cesium-app

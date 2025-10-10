@@ -21,3 +21,22 @@ force_earth_g = universal_constant*mass_earth / (r_distance*r_distance)
 
 # Orbiting Body Formulae - Circular Orbit
 velocity_body = math.sqrt(universal_constant*mass_earth/r_distance)
+
+# Equation of Elliptical Orbit
+
+a = 7000000  # semi-major axis (X)
+b = 7000000  # semi-minor axis (Y)
+period_seconds = 4800  # 90 minutes
+step = 600  # one position every 10 minutes
+positions = []
+
+for t in range(0, period_seconds + 1, step):
+    # θ from 0 to 2π
+    theta = (2 * math.pi) * (t / period_seconds)
+    x = a * math.cos(theta)
+    y = b * math.sin(theta)
+    z = 0  # orbit lies in XY plane
+    positions += [t, x, y, z]
+
+# result: CZML list
+print(positions)
