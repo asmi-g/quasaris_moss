@@ -1,4 +1,4 @@
-# Modular Operations Software Stack (MOSS)
+# Modular Operations Simulation Software (MOSS)
 
 <div align="center">
     <img src="docs/assets/MOSS_QuasarisSpace_Logo.png" alt="MOSS Logo"/>
