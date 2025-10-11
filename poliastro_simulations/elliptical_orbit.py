@@ -2,6 +2,8 @@ import math
 import json
 from datetime import datetime, timedelta
 
+# Satellite model retrieved from: https://science.nasa.gov/3d-resources/deep-space-1/
+
 # Define constants as parameters
 mass_1 = 1
 mass_2 = 1
@@ -31,8 +33,8 @@ tilt_angle_deg = 0
 tilt_angle_rad = math.radians(tilt_angle_deg)
 period_seconds = 4800  # 90 minutes
 step = 600  # one position every 10 minutes
-positions = []
 
+positions = []
 for t in range(0, period_seconds + 1, step):
     # theta from 0 to 2pi
     theta = (2 * math.pi) * (t / period_seconds)
@@ -47,6 +49,18 @@ for t in range(0, period_seconds + 1, step):
     z_rot = y * math.sin(tilt_angle_rad) + z * math.cos(tilt_angle_rad)
 
     positions.extend([t, x, y_rot, z_rot])
+
+# Generate orientation quaternions (manual attitude)
+quaternions = []
+for t in range(0, period_seconds + 1, step):
+    # Simulate a rotation of 1 degree per time step around Z axis
+    angle_rad = math.radians(t * 0.5)  # 0.5 deg/sec = 30 deg per minute
+    half_angle = angle_rad / 2
+    x = 0.0
+    y = 0.0
+    z = math.sin(half_angle)
+    w = math.cos(half_angle)
+    quaternions.extend([t, x, y, z, w])
 
 
 # result: CZML list of generated Cartesian Coordinates
@@ -81,6 +95,10 @@ czml = [
             "referenceFrame": "INERTIAL",
             "cartesian": positions
         },
+        "orientation": {
+            "epoch": iso_start,
+            "unitQuaternion": quaternions
+        },
         "point": {
             "color": {"rgba": [255, 0, 0, 255]},
             "pixelSize": 10
@@ -100,6 +118,12 @@ czml = [
             },
             "width": 2,
             "resolution": 120
+        },
+        "model": {
+          "gltf":  "model_deep_space_1.glb",
+          "scale": 1.0,
+          "minimumPixelSize": 100,
+          "maximumPixelSize": 1000,
         }
     }
 ]
