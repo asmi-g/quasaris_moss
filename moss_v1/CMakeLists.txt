@@ -31,6 +31,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 project(${CMAKE_PROJECT_NAME})
 message("Build type: " ${CMAKE_BUILD_TYPE})
 
+
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
@@ -48,11 +49,16 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    # Include simulated buses folder
+    simulated_buses/fake_i2c.c
+    simulated_buses/fake_can.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    Core/Inc
+    Drivers/STM32G4xx_HAL_Driver/Inc
 )
 
 # Add project symbols (macros)

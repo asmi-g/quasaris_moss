@@ -3,7 +3,7 @@
 Note: These must be run in the msys bash terminal
 
 Set Environment Variables:
-```$ source ~/.bashrc```
+```$ source init/.bashrc```
 
 Check Environment Variables:
 ```$ "$CC" --version ```

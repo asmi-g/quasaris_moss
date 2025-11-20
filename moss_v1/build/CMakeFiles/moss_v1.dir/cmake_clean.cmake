@@ -10,8 +10,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj.d"
   "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj"
   "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj.d"
+  "CMakeFiles/moss_v1.dir/simulated_buses/fake_can.c.obj"
+  "CMakeFiles/moss_v1.dir/simulated_buses/fake_can.c.obj.d"
+  "CMakeFiles/moss_v1.dir/simulated_buses/fake_i2c.c.obj"
+  "CMakeFiles/moss_v1.dir/simulated_buses/fake_i2c.c.obj.d"
   "CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
   "moss_v1.elf"
+  "moss_v1.elf.manifest"
   "moss_v1.pdb"
 )
 

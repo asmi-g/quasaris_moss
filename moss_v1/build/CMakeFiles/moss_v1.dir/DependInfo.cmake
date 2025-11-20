@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s" "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/startup_stm32g474xx.s" "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/moss_v1.dir/startup_stm32g474xx.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -21,20 +21,24 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Core/Inc"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Inc"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Core/Inc"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj.d"
-  "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/main.c" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/main.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/stm32g4xx_it.c" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_it.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/syscalls.c" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/syscalls.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Src/sysmem.c" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/moss_v1.dir/Core/Src/sysmem.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/simulated_buses/fake_can.c" "CMakeFiles/moss_v1.dir/simulated_buses/fake_can.c.obj" "gcc" "CMakeFiles/moss_v1.dir/simulated_buses/fake_can.c.obj.d"
+  "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/simulated_buses/fake_i2c.c" "CMakeFiles/moss_v1.dir/simulated_buses/fake_i2c.c.obj" "gcc" "CMakeFiles/moss_v1.dir/simulated_buses/fake_i2c.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
