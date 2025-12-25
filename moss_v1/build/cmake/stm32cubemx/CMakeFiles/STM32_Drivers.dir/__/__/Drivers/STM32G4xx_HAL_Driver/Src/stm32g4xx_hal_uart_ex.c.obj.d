@@ -1,5 +1,5 @@
-cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj: \
- C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c \
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj: \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Core/Inc/stm32g4xx_hal_conf.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

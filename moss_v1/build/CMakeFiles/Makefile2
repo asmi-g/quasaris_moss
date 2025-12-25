@@ -98,12 +98,12 @@ cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
 CMakeFiles/moss_v1.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moss_v1.dir/build.make CMakeFiles/moss_v1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26 "Built target moss_v1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=20,21,22,23,24,25,26,27,28 "Built target moss_v1"
 .PHONY : CMakeFiles/moss_v1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moss_v1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moss_v1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 0
 .PHONY : CMakeFiles/moss_v1.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/moss_v1.dir/clean:
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 
 # Build rule for subdir invocation for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles 0
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule

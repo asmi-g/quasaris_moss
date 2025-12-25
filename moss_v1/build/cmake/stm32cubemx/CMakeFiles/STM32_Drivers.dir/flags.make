@@ -6,5 +6,5 @@ C_DEFINES = -DDEBUG -DSTM32G474xx -DUSE_HAL_DRIVER
 
 C_INCLUDES = -IC:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Core/Inc -IC:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc -IC:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -IC:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -IC:/Users/asmig/GitProjects/quasaris_moss/moss_v1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
 
-C_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11
+C_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11
 

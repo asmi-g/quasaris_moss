@@ -538,6 +538,54 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s:
 	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.obj
+
+# target to build an object file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
+
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.i
+
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.s
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.s:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.s
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.s
+
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.obj
+
+# target to build an object file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.i
+
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s:
+	cd C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
+.PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -598,6 +646,12 @@ help:
 	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.obj"
 	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.i"
 	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.s"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.obj"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.i"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.s"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.obj"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.i"
+	@echo "... __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.s"
 .PHONY : help
 
 

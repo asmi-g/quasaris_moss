@@ -37,6 +37,8 @@ CMakeFiles/moss_v1.dir/Core/Src/main.c.obj: \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/stdio.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/_ansi.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/newlib.h \

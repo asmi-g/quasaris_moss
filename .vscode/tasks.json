@@ -33,14 +33,21 @@
       "detail": "Build the project after configuring with CMake"
     },
     {
+      "label": "Flash Board",
+      "command": "openocd",
+      "args": [
+        "-f", "interface/stlink.cfg",
+        "-f", "target/stm32g4x.cfg",
+        "-c", "program build/your_project.elf verify reset exit"
+        ],
+      "group": "build"
+    },
+    {
       "label": "Clean Build Directory",
       "type": "shell",
       "command": "powershell",
       "args": [
-        "-NoProfile",
-        "-ExecutionPolicy", "Bypass",
-        "-Command",
-        "if (Test-Path '${workspaceFolder}/build') { Remove-Item -Recurse -Force '${workspaceFolder}/build' }"
+        "rm -rf /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/*"
       ],
       "problemMatcher": [],
       "group": "build"

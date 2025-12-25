@@ -36,4 +36,6 @@ CMakeFiles/moss_v1.dir/Core/Src/stm32g4xx_hal_msp.c.obj: \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
- C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
