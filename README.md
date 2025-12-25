@@ -7,7 +7,3 @@
 ---
 
 Status: MVP In Progress
-
-Terms:
-- gs: ground station
-- obc: on-board computer
