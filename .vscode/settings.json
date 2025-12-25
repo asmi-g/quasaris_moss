@@ -20,6 +20,10 @@
       "task": "CMake Build"
     },
     {
+      "label": "Flash",
+      "task": "Flash Board"
+    },
+    {
       "label": "Clean",
       "task": "Clean Build Directory"
     }

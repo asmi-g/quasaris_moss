@@ -29,8 +29,26 @@ CMakeFiles/moss_v1.dir/Core/Src/main.c.obj: \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h \
  C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
- C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
+ C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/stdio.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/newlib.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/config.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/reent.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/_types.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/machine/_types.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/lock.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/14.3\ rel1/arm-none-eabi/include/sys/stdio.h

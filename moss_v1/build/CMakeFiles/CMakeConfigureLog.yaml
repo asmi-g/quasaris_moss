@@ -2,277 +2,23 @@
 ---
 events:
   -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_UNAME"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "uname"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/uname.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/uname.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/uname"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/uname.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/uname.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/uname"
-      - "/usr/local/bin/uname.com"
-      - "/usr/local/bin/uname.exe"
-      - "/usr/local/bin/uname"
-      - "/usr/bin/uname.com"
-    found: "/usr/bin/uname.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
       - "CMakeLists.txt:31 (project)"
     message: |
       The target system is: Generic -  - arm
-      The host system is: MSYS - 3.6.4-dea57136.x86_64 - x86_64
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_MAKE_PROGRAM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gmake"
-      - "make"
-      - "smake"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/gmake.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/gmake.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/gmake"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/gmake.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/gmake.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/gmake"
-      - "/usr/local/bin/gmake.com"
-      - "/usr/local/bin/gmake.exe"
-      - "/usr/local/bin/gmake"
-      - "/usr/bin/gmake.com"
-      - "/usr/bin/gmake.exe"
-      - "/usr/bin/gmake"
-      - "/bin/gmake.com"
-      - "/bin/gmake.exe"
-      - "/bin/gmake"
-      - "/opt/bin/gmake.com"
-      - "/opt/bin/gmake.exe"
-      - "/opt/bin/gmake"
-      - "/c/Windows/System32/gmake.com"
-      - "/c/Windows/System32/gmake.exe"
-      - "/c/Windows/System32/gmake"
-      - "/c/Windows/gmake.com"
-      - "/c/Windows/gmake.exe"
-      - "/c/Windows/gmake"
-      - "/c/Windows/System32/Wbem/gmake.com"
-      - "/c/Windows/System32/Wbem/gmake.exe"
-      - "/c/Windows/System32/Wbem/gmake"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/gmake"
-      - "/usr/bin/site_perl/gmake.com"
-      - "/usr/bin/site_perl/gmake.exe"
-      - "/usr/bin/site_perl/gmake"
-      - "/usr/bin/vendor_perl/gmake.com"
-      - "/usr/bin/vendor_perl/gmake.exe"
-      - "/usr/bin/vendor_perl/gmake"
-      - "/usr/bin/core_perl/gmake.com"
-      - "/usr/bin/core_perl/gmake.exe"
-      - "/usr/bin/core_perl/gmake"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/make.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/make.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/make"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/make.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/make.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/make"
-      - "/usr/local/bin/make.com"
-      - "/usr/local/bin/make.exe"
-      - "/usr/local/bin/make"
-      - "/usr/bin/make.com"
-    found: "/usr/bin/make.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCCompilerId.c.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
+      The host system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe 
+      Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe 
       Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections
       Id flags:  
       
@@ -306,56 +52,15 @@ events:
       
       
   -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCCompilerId.c.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe 
+      Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe 
       Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections
       Id flags: -c 
       
@@ -366,1110 +71,18 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/4.1.0/CompilerIdC/CMakeCCompilerId.o
+        C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:58 (__resolve_tool_path)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-g++"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_AR"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-ar"
-      - "ar"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_RANLIB"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-ranlib"
-      - "ranlib"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_STRIP"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-strip"
-      - "strip"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-strip.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-strip.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_NM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-nm"
-      - "nm"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-nm.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-nm.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_OBJDUMP"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-objdump"
-      - "objdump"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-objdump.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-objdump.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_READELF"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-readelf"
-      - "readelf"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-readelf.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-readelf.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_DLLTOOL"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-dlltool"
-      - "dlltool"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-dlltool.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-dlltool.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-dlltool"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-dlltool.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-dlltool.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-dlltool"
-      - "/usr/local/bin/arm-none-eabi-dlltool.com"
-      - "/usr/local/bin/arm-none-eabi-dlltool.exe"
-      - "/usr/local/bin/arm-none-eabi-dlltool"
-      - "/usr/bin/arm-none-eabi-dlltool.com"
-      - "/usr/bin/arm-none-eabi-dlltool.exe"
-      - "/usr/bin/arm-none-eabi-dlltool"
-      - "/bin/arm-none-eabi-dlltool.com"
-      - "/bin/arm-none-eabi-dlltool.exe"
-      - "/bin/arm-none-eabi-dlltool"
-      - "/opt/bin/arm-none-eabi-dlltool.com"
-      - "/opt/bin/arm-none-eabi-dlltool.exe"
-      - "/opt/bin/arm-none-eabi-dlltool"
-      - "/c/Windows/System32/arm-none-eabi-dlltool.com"
-      - "/c/Windows/System32/arm-none-eabi-dlltool.exe"
-      - "/c/Windows/System32/arm-none-eabi-dlltool"
-      - "/c/Windows/arm-none-eabi-dlltool.com"
-      - "/c/Windows/arm-none-eabi-dlltool.exe"
-      - "/c/Windows/arm-none-eabi-dlltool"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-dlltool.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-dlltool.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-dlltool"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool"
-      - "/usr/bin/site_perl/arm-none-eabi-dlltool.com"
-      - "/usr/bin/site_perl/arm-none-eabi-dlltool.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-dlltool"
-      - "/usr/bin/vendor_perl/arm-none-eabi-dlltool.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-dlltool.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-dlltool"
-      - "/usr/bin/core_perl/arm-none-eabi-dlltool.com"
-      - "/usr/bin/core_perl/arm-none-eabi-dlltool.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-dlltool"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/dlltool.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/dlltool.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/dlltool"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/dlltool.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/dlltool.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/dlltool"
-      - "/usr/local/bin/dlltool.com"
-      - "/usr/local/bin/dlltool.exe"
-      - "/usr/local/bin/dlltool"
-      - "/usr/bin/dlltool.com"
-    found: "/usr/bin/dlltool.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_ADDR2LINE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-addr2line"
-      - "addr2line"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-addr2line.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-addr2line.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_TAPI"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-tapi"
-      - "tapi"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-tapi.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-tapi.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-tapi"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-tapi.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-tapi.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-tapi"
-      - "/usr/local/bin/arm-none-eabi-tapi.com"
-      - "/usr/local/bin/arm-none-eabi-tapi.exe"
-      - "/usr/local/bin/arm-none-eabi-tapi"
-      - "/usr/bin/arm-none-eabi-tapi.com"
-      - "/usr/bin/arm-none-eabi-tapi.exe"
-      - "/usr/bin/arm-none-eabi-tapi"
-      - "/bin/arm-none-eabi-tapi.com"
-      - "/bin/arm-none-eabi-tapi.exe"
-      - "/bin/arm-none-eabi-tapi"
-      - "/opt/bin/arm-none-eabi-tapi.com"
-      - "/opt/bin/arm-none-eabi-tapi.exe"
-      - "/opt/bin/arm-none-eabi-tapi"
-      - "/c/Windows/System32/arm-none-eabi-tapi.com"
-      - "/c/Windows/System32/arm-none-eabi-tapi.exe"
-      - "/c/Windows/System32/arm-none-eabi-tapi"
-      - "/c/Windows/arm-none-eabi-tapi.com"
-      - "/c/Windows/arm-none-eabi-tapi.exe"
-      - "/c/Windows/arm-none-eabi-tapi"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-tapi.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-tapi.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-tapi"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi"
-      - "/usr/bin/site_perl/arm-none-eabi-tapi.com"
-      - "/usr/bin/site_perl/arm-none-eabi-tapi.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-tapi"
-      - "/usr/bin/vendor_perl/arm-none-eabi-tapi.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-tapi.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-tapi"
-      - "/usr/bin/core_perl/arm-none-eabi-tapi.com"
-      - "/usr/bin/core_perl/arm-none-eabi-tapi.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-tapi"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/tapi.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/tapi.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/tapi"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/tapi.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/tapi.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/tapi"
-      - "/usr/local/bin/tapi.com"
-      - "/usr/local/bin/tapi.exe"
-      - "/usr/local/bin/tapi"
-      - "/usr/bin/tapi.com"
-      - "/usr/bin/tapi.exe"
-      - "/usr/bin/tapi"
-      - "/bin/tapi.com"
-      - "/bin/tapi.exe"
-      - "/bin/tapi"
-      - "/opt/bin/tapi.com"
-      - "/opt/bin/tapi.exe"
-      - "/opt/bin/tapi"
-      - "/c/Windows/System32/tapi.com"
-      - "/c/Windows/System32/tapi.exe"
-      - "/c/Windows/System32/tapi"
-      - "/c/Windows/tapi.com"
-      - "/c/Windows/tapi.exe"
-      - "/c/Windows/tapi"
-      - "/c/Windows/System32/Wbem/tapi.com"
-      - "/c/Windows/System32/Wbem/tapi.exe"
-      - "/c/Windows/System32/Wbem/tapi"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/tapi"
-      - "/usr/bin/site_perl/tapi.com"
-      - "/usr/bin/site_perl/tapi.exe"
-      - "/usr/bin/site_perl/tapi"
-      - "/usr/bin/vendor_perl/tapi.com"
-      - "/usr/bin/vendor_perl/tapi.exe"
-      - "/usr/bin/vendor_perl/tapi"
-      - "/usr/bin/core_perl/tapi.com"
-      - "/usr/bin/core_perl/tapi.exe"
-      - "/usr/bin/core_perl/tapi"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_AR"
-    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ar-14.3"
-      - "arm-none-eabi-gcc-ar-14"
-      - "arm-none-eabi-gcc-ar14"
-      - "arm-none-eabi-gcc-ar"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14"
-      - "/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/bin/arm-none-eabi-gcc-ar-14"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar14"
-      - "/bin/arm-none-eabi-gcc-ar14.com"
-      - "/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/bin/arm-none-eabi-gcc-ar14"
-      - "/opt/bin/arm-none-eabi-gcc-ar14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER_RANLIB"
-    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ranlib-14.3"
-      - "arm-none-eabi-gcc-ranlib-14"
-      - "arm-none-eabi-gcc-ranlib14"
-      - "arm-none-eabi-gcc-ranlib"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
-      - "/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib14"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-g++"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe 
+      Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe 
       Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
       Id flags:  
       
@@ -1503,56 +116,15 @@ events:
       
       
   -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe 
+      Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe 
       Build flags: -mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=hard;-Wall;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
       Id flags: -c 
       
@@ -1563,378 +135,34 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/4.1.0/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_AR"
-    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ar-14.3"
-      - "arm-none-eabi-gcc-ar-14"
-      - "arm-none-eabi-gcc-ar14"
-      - "arm-none-eabi-gcc-ar"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.3"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14"
-      - "/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/bin/arm-none-eabi-gcc-ar-14"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar14"
-      - "/bin/arm-none-eabi-gcc-ar14.com"
-      - "/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/bin/arm-none-eabi-gcc-ar14"
-      - "/opt/bin/arm-none-eabi-gcc-ar14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:31 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_RANLIB"
-    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ranlib-14.3"
-      - "arm-none-eabi-gcc-ranlib-14"
-      - "arm-none-eabi-gcc-ranlib14"
-      - "arm-none-eabi-gcc-ranlib"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.3"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
-      - "/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib14"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib14"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49"
-      binary: "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49"
+      source: "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23"
+      binary: "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23"
     cmakeVariables:
       CMAKE_C_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections"
       CMAKE_C_FLAGS_DEBUG: "-O0 -g3"
-      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/STM32G474XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=moss_v1.map -Wl,--gc-sections -Wl,--print-memory-usage"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/STM32G474XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=moss_v1.map -Wl,--gc-sections -Wl,--print-memory-usage"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49'
+        Change Dir: 'C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23'
         
-        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_fc574/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_fc574.dir/build.make CMakeFiles/cmTC_fc574.dir/build
-        make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49'
-        Building C object CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections  -std=gnu11   -v -o CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_8d7e1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8d7e1.dir/build.make CMakeFiles/cmTC_8d7e1.dir/build
+        make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23'
+        Building C object CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections  -std=gnu11   -v -o CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.3 rel1\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -1942,8 +170,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/'
-         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/msys64/usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fc574.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdata-sections -ffunction-sections -o C:\\msys64\\tmp\\ccG4AP3b.s
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/'
+         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8d7e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdata-sections -ffunction-sections -o C:\\Users\\asmig\\AppData\\Local\\Temp\\ccUXy2JX.s
         GNU C11 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -1960,25 +188,25 @@ events:
          C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: b7d3e61a3c100ce920bcfa732511112e
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/'
-         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj C:\\msys64\\tmp\\ccG4AP3b.s
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/'
+         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj C:\\Users\\asmig\\AppData\\Local\\Temp\\ccUXy2JX.s
         GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616
         COMPILER_PATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_fc574.a
-        /usr/bin/cmake.exe -P CMakeFiles/cmTC_fc574.dir/cmake_clean_target.cmake
-        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_fc574.dir/link.txt --verbose=1
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_fc574.a CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_fc574.a
-        make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49'
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_8d7e1.a
+        C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -P CMakeFiles/cmTC_8d7e1.dir/cmake_clean_target.cmake
+        C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8d7e1.dir/link.txt --verbose=1
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_8d7e1.a CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_8d7e1.a
+        make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -1988,29 +216,28 @@ events:
           add: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed]
           add: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
-        implicit include dirs: []
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include-fixed]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include]
+        implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49']
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_fc574/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_fc574.dir/build.make CMakeFiles/cmTC_fc574.dir/build]
-        ignore line: [make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49']
-        ignore line: [Building C object CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections  -std=gnu11   -v -o CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_8d7e1/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8d7e1.dir/build.make CMakeFiles/cmTC_8d7e1.dir/build]
+        ignore line: [make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23']
+        ignore line: [Building C object CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections  -std=gnu11   -v -o CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.3 rel1\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -2018,8 +245,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/']
-        ignore line: [ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/msys64/usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fc574.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdata-sections -ffunction-sections -o C:\\msys64\\tmp\\ccG4AP3b.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8d7e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -std=gnu11 -version -fdata-sections -ffunction-sections -o C:\\Users\\asmig\\AppData\\Local\\Temp\\ccUXy2JX.s]
         ignore line: [GNU C11 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 10-win32 20220113  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2036,8 +263,8 @@ events:
         ignore line: [ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b7d3e61a3c100ce920bcfa732511112e]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/']
-        ignore line: [ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj C:\\msys64\\tmp\\ccG4AP3b.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj C:\\Users\\asmig\\AppData\\Local\\Temp\\ccUXy2JX.s]
         ignore line: [GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616]
         ignore line: [COMPILER_PATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/]
         ignore line: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/]
@@ -2049,13 +276,13 @@ events:
         ignore line: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/]
         ignore line: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_fc574.a]
-        ignore line: [/usr/bin/cmake.exe -P CMakeFiles/cmTC_fc574.dir/cmake_clean_target.cmake]
-        ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_fc574.dir/link.txt --verbose=1]
-        ignore line: ["/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_fc574.a CMakeFiles/cmTC_fc574.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_fc574.a]
-        ignore line: [make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-n1jq49']
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_8d7e1.a]
+        ignore line: [C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -P CMakeFiles/cmTC_8d7e1.dir/cmake_clean_target.cmake]
+        ignore line: [C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8d7e1.dir/link.txt --verbose=1]
+        ignore line: ["C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_8d7e1.a CMakeFiles/cmTC_8d7e1.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_8d7e1.a]
+        ignore line: [make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-1f2q23']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -2067,30 +294,29 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL"
-      binary: "/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL"
+      source: "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr"
+      binary: "C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics"
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/STM32G474XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=moss_v1.map -Wl,--gc-sections -Wl,--print-memory-usage"
+      CMAKE_EXE_LINKER_FLAGS: "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/STM32G474XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=moss_v1.map -Wl,--gc-sections -Wl,--print-memory-usage"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL'
+        Change Dir: 'C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr'
         
-        Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_fee9d/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_fee9d.dir/build.make CMakeFiles/cmTC_fee9d.dir/build
-        make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL'
-        Building CXX object CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_870f6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_870f6.dir/build.make CMakeFiles/cmTC_870f6.dir/build
+        make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr'
+        Building CXX object CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj -c C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.3 rel1\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -2098,8 +324,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fee9d.dir/'
-         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/msys64/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fee9d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\msys64\\tmp\\ccUKTdkE.s
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_870f6.dir/'
+         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_870f6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o C:\\Users\\asmig\\AppData\\Local\\Temp\\ccXK5lWX.s
         GNU C++17 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2122,25 +348,25 @@ events:
          C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: dada17c8e112483894e5d212ab573e65
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fee9d.dir/'
-         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj C:\\msys64\\tmp\\ccUKTdkE.s
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_870f6.dir/'
+         C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m+fp -mfloat-abi=hard -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\asmig\\AppData\\Local\\Temp\\ccXK5lWX.s
         GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616
         COMPILER_PATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../libexec/gcc/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_fee9d.a
-        /usr/bin/cmake.exe -P CMakeFiles/cmTC_fee9d.dir/cmake_clean_target.cmake
-        /usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_fee9d.dir/link.txt --verbose=1
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_fee9d.a CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj
-        "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_fee9d.a
-        make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL'
+        COLLECT_GCC_OPTIONS='-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-Wall' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_870f6.a
+        C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -P CMakeFiles/cmTC_870f6.dir/cmake_clean_target.cmake
+        C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_870f6.dir/link.txt --verbose=1
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ar.exe" qc libcmTC_870f6.a CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-ranlib.exe" libcmTC_870f6.a
+        make[1]: Leaving directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -2153,33 +379,32 @@ events:
           add: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed]
           add: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1/backward]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed]
-        skipping relative include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
-        implicit include dirs: []
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include/c++/14.3.1/backward] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1/backward]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include-fixed]
+        collapse include dir [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include]
+        implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m+fp/hard;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include/c++/14.3.1/backward;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/lib/gcc/arm-none-eabi/14.3.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:31 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL']
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake.exe -E env VERBOSE=1 /usr/bin/make.exe -f Makefile cmTC_fee9d/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_fee9d.dir/build.make CMakeFiles/cmTC_fee9d.dir/build]
-        ignore line: [make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-eDP6mL']
-        ignore line: [Building CXX object CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj]
-        link line: ["/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-          arg [/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe] ==> ignore
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeCLT_1.19.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_870f6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_870f6.dir/build.make CMakeFiles/cmTC_870f6.dir/build]
+        ignore line: [make[1]: Entering directory '/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/CMakeFiles/CMakeScratch/TryCompile-g0hbvr']
+        ignore line: [Building CXX object CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj]
+        link line: ["C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics    -v -o CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj -c C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+          arg [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe] ==> ignore
           arg [-mcpu=cortex-m4] ==> ignore
           arg [-mfpu=fpv4-sp-d16] ==> ignore
           arg [-mfloat-abi=hard] ==> ignore
@@ -2197,10 +422,9 @@ events:
           arg [-fno-threadsafe-statics] ==> ignore
           arg [-v] ==> ignore
           arg [-o] ==> ignore
-          arg [CMakeFiles/cmTC_fee9d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_870f6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-c] ==> ignore
-          arg [/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp] ==> ignore
-        linker tool for 'CXX': /c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe
+          arg [C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp] ==> ignore
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -2210,106 +434,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
-    message: |
-      Running the CXX compiler's linker: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe" "-v"
-      Using built-in specs.
-      COLLECT_GCC=C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.3 rel1\\bin\\arm-none-eabi-g++.exe
-      COLLECT_LTO_WRAPPER=C:/Program\\ Files\\ (x86)/Arm\\ GNU\\ Toolchain\\ arm-none-eabi/14.3\\ rel1/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper.exe
-      Target: arm-none-eabi
-      Configured with: /data/jenkins/workspace/GNU-toolchain/arm-14/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://bugs.linaro.org/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-14/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)'
-      Thread model: single
-      Supported LTO compression algorithms: zlib
-      gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174))
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
-    message: |
-      Running the CXX compiler's linker: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe" "-V"
-      arm-none-eabi-g++.exe: error: unrecognized command-line option '-V'
-      arm-none-eabi-g++.exe: fatal error: no input files
-      compilation terminated.
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:31 (project)"
-    message: |
-      Running the CXX compiler's linker: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-g++.exe" "--version"
-      arm-none-eabi-g++.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
-      Copyright (C) 2024 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:35 (enable_language)"
-    mode: "program"
-    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PROGRAM_PATH:
-        - "/bin"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:35 (enable_language)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:36 (enable_language)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
@@ -2317,276 +444,4 @@ events:
       This is free software; see the source for copying conditions.  There is NO
       warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:35 (enable_language)"
-    mode: "program"
-    variable: "CMAKE_ASM_COMPILER_AR"
-    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ar-"
-      - "arm-none-eabi-gcc-ar-"
-      - "arm-none-eabi-gcc-ar"
-      - "arm-none-eabi-gcc-ar"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-"
-      - "/bin/arm-none-eabi-gcc-ar-.com"
-      - "/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/bin/arm-none-eabi-gcc-ar-"
-      - "/opt/bin/arm-none-eabi-gcc-ar-.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar-"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ar-"
-      - "/bin/arm-none-eabi-gcc-ar-.com"
-      - "/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/bin/arm-none-eabi-gcc-ar-"
-      - "/opt/bin/arm-none-eabi-gcc-ar-.com"
-      - "/opt/bin/arm-none-eabi-gcc-ar-.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ar-"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ar.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PROGRAM_PATH:
-        - "/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:35 (enable_language)"
-    mode: "program"
-    variable: "CMAKE_ASM_COMPILER_RANLIB"
-    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ranlib-"
-      - "arm-none-eabi-gcc-ranlib-"
-      - "arm-none-eabi-gcc-ranlib"
-      - "arm-none-eabi-gcc-ranlib"
-    candidate_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/opt/bin/"
-      - "/c/Windows/System32/"
-      - "/c/Windows/"
-      - "/c/Windows/System32/Wbem/"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-    searched_directories:
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
-      - "/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
-      - "/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/bin/arm-none-eabi-gcc-ranlib-"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-.com"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-.exe"
-      - "/opt/bin/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/Wbem/arm-none-eabi-gcc-ranlib-"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.com"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.exe"
-      - "/c/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-.com"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-.exe"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-"
-      - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.com"
-    found: "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
-    search_context:
-      ENV{PATH}:
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin"
-        - "/c/Program Files (x86)/ArmGNU Toolchain/14.3.rel1/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/opt/bin"
-        - "/c/Windows/System32"
-        - "/c/Windows"
-        - "/c/Windows/System32/Wbem"
-        - "/c/Windows/System32/WindowsPowerShell/v1.0/"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PROGRAM_PATH:
-        - "/bin"
 ...
