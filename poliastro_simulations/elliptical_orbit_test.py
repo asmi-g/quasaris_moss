@@ -5,11 +5,13 @@ import os
 from datetime import datetime, timedelta 
 from model import Satellite
 
+# TO-DO: Look into Hohmann Transfer for determining thrust values and timings on MCU
+
 def read_thrust_values(filename="thrust.csv"):
     """
     Read a list of thrust readings from a CSV.
     Each entry in thrust.csv will be written as:
-    {'start_time','end_time', 'ax', 'ay', 'az'}
+    {'start_time','end_time', 'delta_v'}
     """
     events = []
     with open(filename, newline="") as csvfile:
@@ -18,11 +20,7 @@ def read_thrust_values(filename="thrust.csv"):
             events.append({
                 "start_time": float(row["start_time"]),
                 "end_time": float(row["end_time"]),
-                "accel": [
-                    float(row["ax"]),
-                    float(row["ay"]),
-                    float(row["az"])
-                ]
+                "delta_v": float(row["delta_v"])
             })
     return events
 
@@ -39,17 +37,22 @@ def write_accelerometer_values(imu_accel_values, filename="acceleration.csv"):
         for t, ax, ay, az in imu_accel_values:
             writer.writerow([t, ax, ay, az])
 
+G = 6.67430e-11 # gravitational constant 
+M_EARTH = 5.9742e24 # kg 
+mew = G*M_EARTH
+
 sat = Satellite( 
         position=[7000000, 0, 0], # starting at periapsis 
-        velocity=[0, 7500, 0], # roughly circular orbit 
+        velocity=[0, math.sqrt(mew/7000000), 0], # roughly circular orbit 
         mass=500 
 ) 
 
 t = 0 
 dt = 10 # seconds 
+burn_duration=60
 positions = [] 
 imu_accel_values = []
-period_seconds = 30000 
+period_seconds = 50000 
 max_steps = 10000 # or while True for truly infinite 
     
 thrust_values = read_thrust_values("thrust.csv") # pick latest thrust (or last one if we ran out) 
@@ -58,8 +61,25 @@ for step_idx in range(max_steps):
     thrust = None
     for event in thrust_values:
         if event["start_time"] <= t <= event["end_time"]:
-            thrust = event["accel"]
-            break        
+            burn_duration = event["end_time"] - event["start_time"]
+            dv = event["delta_v"]
+
+            # Current velocity vector
+            vx, vy, vz = sat.velocity
+            v_mag = math.sqrt(vx*vx + vy*vy + vz*vz)
+
+            if v_mag > 0:
+                v_hat = [vx/v_mag, vy/v_mag, vz/v_mag]
+
+                # Acceleration magnitude
+                a_mag = dv / burn_duration
+
+                thrust = [
+                    a_mag * v_hat[0],
+                    a_mag * v_hat[1],
+                    a_mag * v_hat[2]
+                ]
+            break      
     pos, vel, accel = sat.step(dt, thrust) 
     positions.extend([t, pos[0], pos[1], pos[2]]) 
 

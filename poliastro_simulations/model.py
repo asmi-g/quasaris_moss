@@ -24,5 +24,7 @@ class Satellite:
         self.velocity = [self.velocity[i] + a[i]*dt for i in range(3)] 
         self.position = [self.position[i] + self.velocity[i]*dt for i in range(3)] 
         return self.position, self.velocity, a 
+    
+    
 
     
