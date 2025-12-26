@@ -2,7 +2,7 @@ import json
 import math
 from datetime import datetime, timedelta
 
-def create_czml(positions, period_seconds=50000, step_seconds=600):
+def create_czml(positions, period_seconds=100000, step_seconds=600):
     quaternions = []
     for t in range(0, period_seconds + 1, step_seconds):
         angle_rad = math.radians(t * 0.5)

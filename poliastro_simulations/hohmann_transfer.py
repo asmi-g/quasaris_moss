@@ -35,18 +35,24 @@ def write_burns_to_csv(
     Writes two Hohmann burns to CSV in acceleration format.
     Acceleration is applied in +X direction (placeholder).
     """
-    with open(filename, "w", newline="") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["start_time", "end_time", "delta_v"])
+    file_exists = os.path.exists(filename)
 
-        # Burn 1 (at start_time)
+    with open(filename, "a", newline="") as csvfile:  # note 'a' for append
+        writer = csv.writer(csvfile)
+
+        # Write header only if file didn't exist
+        if not file_exists:
+            writer.writerow(["start_time", "end_time", "delta_v"])
+
+        # Burn 1
         writer.writerow([start_time, start_time+burn_duration, delta_v1])
 
-        # Burn 2 (after time of flight)
+        # Burn 2
         writer.writerow([start_time + tof, start_time+tof+burn_duration, delta_v2])
 
-delta_v1, delta_v2, time_of_flight = compute_burns(7000000, 12000000)
-write_burns_to_csv("data/thrust.csv",5400, delta_v1, delta_v2, time_of_flight)
+
+delta_v1, delta_v2, time_of_flight = compute_burns(10000000, 13000000)
+write_burns_to_csv("data/thrust.csv",20000, delta_v1, delta_v2, time_of_flight)
 
 # Goal of processor is to perform the above calculations and also monitor burn velocity
 # such that accelerometer can help calculate v_delta_measured by integrating the acceleration values
