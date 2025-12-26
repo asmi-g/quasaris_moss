@@ -1,1 +1,2 @@
 *.env
+poliastro_simulations/__pycache__/*
