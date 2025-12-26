@@ -3,7 +3,7 @@ const viewer = new Cesium.Viewer('cesiumContainer', {
 });
 
 // Load CZML
-Cesium.CzmlDataSource.load('orbit.czml').then(function (czmlDataSource) {
+Cesium.CzmlDataSource.load('data/orbit.czml').then(function (czmlDataSource) {
   viewer.dataSources.add(czmlDataSource);
   viewer.clock.shouldAnimate = true;
 
