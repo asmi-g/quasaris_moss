@@ -14,6 +14,24 @@
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "STM32G474",
+            "includePath": [
+                "${workspaceFolder}/moss_v1/Core/Inc/**",
+                "${workspaceFolder}/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/**",
+                "${workspaceFolder}/moss_v1/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/**",
+                "${workspaceFolder}/moss_v1/Drivers/CMSIS/Device/ST/STM32G4xx/Include/**",
+                "${workspaceFolder}/moss_v1/Drivers/CMSIS/Include/**"
+            ],
+            "defines": [
+                "STM32G474xx",
+                "USE_HAL_DRIVER"
+            ],
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-arm"
         }
     ],
     "version": 4

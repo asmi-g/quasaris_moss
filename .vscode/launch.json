@@ -21,7 +21,12 @@
       ],
 
       "runToEntryPoint": "true",
-      "preLaunchTask": ""
+      "preLaunchTask": "",
+      "openOCDLaunchCommands": [
+        "transport select swd",  
+        "adapter speed 1000",
+        "reset_config srst_only srst_nogate connect_assert_srst"
+      ]
     }
   ]
 }
