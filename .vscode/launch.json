@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "STM32 Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+
+      "servertype": "openocd",
+      "serverpath":"C:/Users/asmig/OpenOCD-20251211-0.12.0/bin/openocd.exe",
+
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/moss_v1/build/Debug/moss_v1.elf",
+
+      "device": "STM32G474RE",
+      "interface": "swd",
+
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32g4x.cfg"
+      ],
+
+      "runToEntryPoint": "true",
+      "preLaunchTask": ""
+    }
+  ]
+}

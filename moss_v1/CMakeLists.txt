@@ -50,8 +50,6 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     # Include simulated buses folder
-    simulated_buses/fake_i2c.c
-    simulated_buses/fake_can.c
 )
 
 # Add include paths
@@ -64,6 +62,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
+    Core/Src
 )
 
 # Remove wrong libob.a library dependency when using cpp files
