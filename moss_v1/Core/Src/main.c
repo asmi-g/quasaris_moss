@@ -99,8 +99,14 @@ int main(void)
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  // GOAL: Just get computation working, can worry about interfaces & connecting to interface later
+  // Calculate: Average Time to Reach Target, Average Fuel Consumed, Simulation Execution Time 
+
   double r_current = 10000000.0; // 10,000 km
   double r_target  = 13000000.0; // 13,000 km
+  printf("R Current: %f\n", r_current);
+  printf("R Target: %f\n", r_target);
+
   execute_hohmann_transfer(r_current, r_target);
 
   //FILE* torque_file;

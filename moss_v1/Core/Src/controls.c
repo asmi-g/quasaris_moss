@@ -54,8 +54,8 @@ void execute_hohmann_transfer(double current_radius, double target_radius) {
     print_double("Delta-v2", burns.delta_v2, "m/s");
     print_double("Time of flight", burns.time_of_flight, "s");
 
-    perform_burn(burns.delta_v1);
+    //perform_burn(burns.delta_v1);
     HAL_Delay((int)(burns.time_of_flight * 1000));
-    perform_burn(burns.delta_v2);
+    //perform_burn(burns.delta_v2);
 }
 

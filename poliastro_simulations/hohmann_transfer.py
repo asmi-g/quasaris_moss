@@ -21,7 +21,6 @@ def compute_burns(initial_orbit_radius, final_orbit_radius):
     return delta_v_1, delta_v_2, time_of_flight
 
 
-
     
 def write_burns_to_csv(
     filename,
@@ -51,7 +50,7 @@ def write_burns_to_csv(
         writer.writerow([start_time + tof, start_time+tof+burn_duration, delta_v2])
 
 
-delta_v1, delta_v2, time_of_flight = compute_burns(10000000, 13000000)
+delta_v1, delta_v2, time_of_flight = compute_burns(7200000, 9000000)
 write_burns_to_csv("data/thrust.csv",20000, delta_v1, delta_v2, time_of_flight)
 
 # Goal of processor is to perform the above calculations and also monitor burn velocity
