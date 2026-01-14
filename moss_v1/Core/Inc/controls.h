@@ -9,6 +9,7 @@
 #define G 6.67430e-11
 #define M_EARTH 5.9742e24
 #define MU (G * M_EARTH)
+#define SIM_TIME_SCALE 100000.0
 
 typedef struct {
     double delta_v1;
@@ -17,5 +18,7 @@ typedef struct {
 } HohmannBurns_t;
 
 HohmannBurns_t compute_hohmann_burns(double r1, double r2);
+double simulated_accelerometer(void); //placeholder for simulated accelerometer reading
+double compute_burn_time(double target_delta_v);
 void perform_burn(double target_delta_v);
 void execute_hohmann_transfer(double current_radius, double target_radius);

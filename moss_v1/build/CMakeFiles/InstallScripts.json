@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake_install.cmake",
+		"/c/Users/asmig/GitProjects/quasaris_moss/moss_v1/build/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
