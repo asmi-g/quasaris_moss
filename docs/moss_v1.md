@@ -3,7 +3,7 @@
 Note: These must be run in the msys bash terminal
 
 Set Environment Variables:
-```$ source init/.bashrc```
+```$ source /c/Users/asmig/GitProjects/quasaris_moss/moss_v1/init/.bashrc```
 
 Check Environment Variables:
 ```$ "$CC" --version ```

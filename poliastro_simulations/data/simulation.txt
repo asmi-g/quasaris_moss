@@ -1,0 +1,43 @@
+Simulation Data:
+
+R Current: 7200000.000000
+R Target: 9000000.000000
+Computed Δv1: 402.545 m/s
+Computed Δv2: 380.670 m/s
+
+Time of flight: 3626.892 s
+
+Delta-v1: 402.545 m/s
+Delta-v2: 380.670 m/s
+Time of flight: 3626.892 s
+
+Burn 1 Time: 80508.914 s
+Number of loop iterations required for Burn 1: 805089.144
+
+Burn 2 Time: 76134.037 s
+Number of loop iterations required for Burn 2: 761340.365
+
+Total Loop Iterations for both Transfer Burns: 1566429.509
+
+Total Transfer Time: 160269.843 s
+
+Run 1, Clk at 16MHz: cycles = 850462
+Run 2, Clk at 64Mhz: cycles = 2911747
+Run 3, Clk at 170MHz: cycles = 9760321
+
+Run 1, Cycles per loop iteration (16MHz): 1602003
+Run 2, Cycles per loop iteration (64 MHz): 2716
+Run 3, Cycles per loop iteration (170 MHz): 218
+
+Some notes:
+Previous runs showed that 1 control loop iteration (from perform_burn(double target_delta_v)) required 1602003 CPU cycles
+As well, the variable "cycles" above represents the number of CPU cycles without perform_burn loop being executed
+To estimate the total number of required CPU Cycles for th entire simulation, one can multiple the CPU cyclers per iteration and the total number of iterations together.
+    Run 1: (1602003 x 1566429.509) + 850462 = 2.5094256e+12 CPU Cycles for the entire simulation
+    Run 2: (2716 x 1566429.509) + 2911747 = 4257334293.44 CPU Cycles for the entire simulation
+    Run 3: (218 x 1566429.509) + 9760321 = 351241953.962 CPU Cycles for the entire simulation
+
+CPU Load can be calculated by the following: (CPU Cycles for the entire simulation)/(System Clock CPU Frequency*Load Period Window or Total Transfer Time) x 100
+    Run 1, CPU Load = (2.5094256e+12 CPU Cycles)/(16 MHz * 160269.843 s ) x 100 = 97.8593957941%
+    Run 2, CPU Load = (4257334293.44 CPU Cyles)/(64 MHz * 160269.843 s ) x 100 = 0.04150553035%
+    Run 3, CPU Load = (351241953.962 CPU Cyles)/(170 MHz * 160269.843 s ) x 100 = 0.00001289156%

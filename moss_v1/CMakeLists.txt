@@ -50,8 +50,6 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     # Include simulated buses folder
-    simulated_buses/fake_i2c.c
-    simulated_buses/fake_can.c
 )
 
 # Add include paths
@@ -64,10 +62,14 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
+    Core/Src
 )
 
 # Remove wrong libob.a library dependency when using cpp files
 list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
+
+# Enable float support in printf
+target_link_options(${CMAKE_PROJECT_NAME} PRIVATE -u _printf_float)
 
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
