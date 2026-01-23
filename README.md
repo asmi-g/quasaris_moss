@@ -22,19 +22,21 @@ Prototype for a more affordable and flexible framework for processor-in-the-loop
 * *Purpose*: Typical tools used for this like Matlab’s Embedded Coder are expensive, so this offers a cheaper, off-the-shelf, and more customizable alternative. One setback is something commercial like Embedded Coder offers a lot of data on CPU performance that is lacking in this tool, but definitely a consideration for the future.
 
 ## Use Instructions
-Install: 
+### Install: 
 * [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
 * [cmake](https://cmake.org/)
 * [gnu-arm-toolchain](https://developer.arm.com/downloads/-/gnu-rm)
 * [VS Code IDE](https://code.visualstudio.com/)
 
-Build Tools Setup:
-* [VS Code Setup for C/C++ with ARM Cortex-M](https://mcuoneclipse.com/2021/05/01/visual-studio-code-for-c-c-with-arm-cortex-m-part-1/): Specifically, follow the instructions in the sections describing setup for cmake, and GNU Arm Embedded Toolchain
+### Build Tools Setup:
+* [VS Code Setup for C/C++ with ARM Cortex-M](https://mcuoneclipse.com/2021/05/01/visual-studio-code-for-c-c-with-arm-cortex-m-part-1/)           
+Specifically, follow the instructions in the sections describing setup for cmake, and GNU Arm Embedded Toolchain
 
-Components Required:
-* [STM32 G474RE](https://www.st.com/en/evaluation-tools/nucleo-g474re.html): This is what the prototype has been developed with, though future support will be added for a broader range of microcontrollers.
+### Components Required:
+* [STM32 G474RE](https://www.st.com/en/evaluation-tools/nucleo-g474re.html)
+This is what the prototype has been developed with, though future support will be added for a broader range of microcontrollers.
 
-Launch:
+### Launch:
 * Simulation Launch Instructions available in /docs/moss_v1.md
 
 ### Develop
