@@ -21,7 +21,8 @@ Prototype for a more affordable and flexible framework for processor-in-the-loop
 * *Method*: Current prototype uses something called Hohmann Transfer to plan the thrust/difference in velocities at periapsis and apoapsis (i.e, points where you’d switch orbits), simulates the burns, gets the simulated position output back, and uses that as feedback for determining burn time based on what the target delta velocity is supposed to be (i.e, if reached, proceed, if not, keep applying microburns). This is also visualized in the web interface (pictured on the poster)
 * *Purpose*: Typical tools used for this like Matlab’s Embedded Coder are expensive, so this offers a cheaper, off-the-shelf, and more customizable alternative. One setback is something commercial like Embedded Coder offers a lot of data on CPU performance that is lacking in this tool, but definitely a consideration for the future.
 
-### Use Instructions
+## Instructions
+### Use
 Install: 
 * [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
 * [cmake](https://cmake.org/)
@@ -37,22 +38,26 @@ Components Required:
 Launch:
 * Simulation Launch Instructions available in /docs/moss_v1.md
 
-### Development Instructions
+### Develop
 To setup your own algorithms/mission planning, modify the logic in moss_v1/ as required, which contains the STM32 code logic. Further information is available below, where its repository structure is detailed.
 
-### Repository Structure
+## Repository Structure
+
+<details>
+<summary><strong>Project directory layout</strong></summary>
+
+```text
 ├── docs
 ├── moss_v1
 ├── poliastro_simulations
 └── README.md
 
-#### docs/
+
 └── docs
    ├── assets/              Assets for documentation
    ├── archive_docs/        Archived documentation not relevant to current prototype
    └── moss_v1.md           Technical documentation (commands) for running the simulation on the embedded flight controller
 
-#### moss_v1/
 └── moss_v1
    ├── build/               STM32 build files
    ├── cmake/               CMake configuration files
@@ -71,7 +76,6 @@ To setup your own algorithms/mission planning, modify the logic in moss_v1/ as r
    ├── CMakeLists.txt        Cmake configuration for STM32 project
    └── moss_v1.ioc           Input/Output configuration for STM32 project
 
-#### poliastro_simulations/
 └── poliastro_simulations
    ├── archive_scripts/             Archived scripts not relevant to current prototype
    ├── data/
@@ -82,6 +86,8 @@ To setup your own algorithms/mission planning, modify the logic in moss_v1/ as r
    ├── main.py                      Reloads the web interface as changes in thrust are detected
    ├── model.py                     Defines the basic dynamics to visualize the Satellite object 
    └── visualizer.py                Creates and loads czml object for web interface visualization
+```
+</details>
 
 <div align="center">
     <img src="docs/assets/Hohmann_Transfer_Example.png" alt="Hohmann Transfer Demonstration"/>
