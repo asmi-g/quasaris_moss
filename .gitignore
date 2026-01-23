@@ -1,2 +1,4 @@
 *.env
 poliastro_simulations/__pycache__/*
+moss_v1/.cache/*
+moss_v1/build/*

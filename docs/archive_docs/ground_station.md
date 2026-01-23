@@ -1,4 +1,4 @@
-## Running the Ground Station App Script in /ground_station
+## FUTURE IMPLEMENTATION: Running the Ground Station App Script in /ground_station
 
 Running Ground Station App:
 ```python3 app.py```
