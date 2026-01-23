@@ -21,8 +21,7 @@ Prototype for a more affordable and flexible framework for processor-in-the-loop
 * *Method*: Current prototype uses something called Hohmann Transfer to plan the thrust/difference in velocities at periapsis and apoapsis (i.e, points where you’d switch orbits), simulates the burns, gets the simulated position output back, and uses that as feedback for determining burn time based on what the target delta velocity is supposed to be (i.e, if reached, proceed, if not, keep applying microburns). This is also visualized in the web interface (pictured on the poster)
 * *Purpose*: Typical tools used for this like Matlab’s Embedded Coder are expensive, so this offers a cheaper, off-the-shelf, and more customizable alternative. One setback is something commercial like Embedded Coder offers a lot of data on CPU performance that is lacking in this tool, but definitely a consideration for the future.
 
-## Instructions
-### Use
+## Use Instructions
 Install: 
 * [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
 * [cmake](https://cmake.org/)
