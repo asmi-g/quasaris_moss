@@ -14,13 +14,6 @@ Prototype for a more affordable and flexible framework for processor-in-the-loop
 * Demonstrate a closed loop feedback system and execute simplified orbit positioning and attitude maneuvers, with resulting trajectories being computed and visualized in a 3D environment. 
 * Provide a low-cost, scalable & modular test framework for rapid GNC prototyping, reduced barriers of entry for research, and proof of concept validation for early-stage missions.
 
-### Project Brief
-* *Target Audience*: Aimed at small scale institutions in need of a cheaper alternative for prototyping their GNC embedded software systems
-* *Use Case*: Used for processor-in-the-loop simulations, i.e you have a defined model/behavior you want your celestial object to follow and you need a framework for simulating the maneuvers on your flight controller only (i.e, no peripherals)
-* *Implemented Support*: Current prototype has been developed for the STM32 suite, specifically the G474RE, which does pose limitations in terms of flight controller chip choice, though there are plans in the future to make it modular for other suites of controllers (NXP, MicroChip)
-* *Method*: Current prototype uses something called Hohmann Transfer to plan the thrust/difference in velocities at periapsis and apoapsis (i.e, points where you’d switch orbits), simulates the burns, gets the simulated position output back, and uses that as feedback for determining burn time based on what the target delta velocity is supposed to be (i.e, if reached, proceed, if not, keep applying microburns). This is also visualized in the web interface (pictured on the poster)
-* *Purpose*: Typical tools used for this like Matlab’s Embedded Coder are expensive, so this offers a cheaper, off-the-shelf, and more customizable alternative. One setback is something commercial like Embedded Coder offers a lot of data on CPU performance that is lacking in this tool, but definitely a consideration for the future.
-
 ## Use Instructions
 ### Install: 
 * [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
@@ -89,6 +82,14 @@ To setup your own algorithms/mission planning, modify the logic in moss_v1/ as r
    └── visualizer.py                Creates and loads czml object for web interface visualization
 ```
 </details>
+
+
+## Project Brief
+* **Target Audience**: Aimed at small scale institutions in need of a cheaper alternative for prototyping their GNC embedded software systems
+* **Use Case**: Used for processor-in-the-loop simulations, i.e you have a defined model/behavior you want your celestial object to follow and you need a framework for simulating the maneuvers on your flight controller only (i.e, no peripherals)
+* **Implemented Support**: Current prototype has been developed for the STM32 suite, specifically the G474RE, which does pose limitations in terms of flight controller chip choice, though there are plans in the future to make it modular for other suites of controllers (NXP, MicroChip)
+* **Method**: Current prototype uses something called Hohmann Transfer to plan the thrust/difference in velocities at periapsis and apoapsis (i.e, points where you’d switch orbits), simulates the burns, gets the simulated position output back, and uses that as feedback for determining burn time based on what the target delta velocity is supposed to be (i.e, if reached, proceed, if not, keep applying microburns). This is also visualized in the web interface (pictured on the poster)
+* **Purpose**: Typical tools used for this like Matlab’s Embedded Coder are expensive, so this offers a cheaper, off-the-shelf, and more customizable alternative. One setback is something commercial like Embedded Coder offers a lot of data on CPU performance that is lacking in this tool, but definitely a consideration for the future.
 
 <div align="center">
     <img src="docs/assets/Hohmann_Transfer_Example.png" alt="Hohmann Transfer Demonstration"/>
